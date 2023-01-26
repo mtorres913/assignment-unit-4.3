@@ -23,3 +23,12 @@ addItem('apple');
 listItems();
 addItem('bread');
 console.log (basket)
+
+function empty(){
+    while (basket.length > 0){
+        basket.pop();
+    }
+}
+//testing empty function
+empty()
+console.log(basket)
